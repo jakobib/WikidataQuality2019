@@ -37,6 +37,6 @@ write, and process.
 * data modeling ([Q367664])
 * modeling language ([Q1941921])
 
-[Q367664]: http://www.wikidata.org/entity/Q367664]
+[Q367664]: http://www.wikidata.org/entity/Q367664
 [Q2013]: http://www.wikidata.org/entity/Q2013
 [Q1941921]:http://www.wikidata.org/entity/Q1941921
