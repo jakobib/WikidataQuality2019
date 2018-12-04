@@ -22,9 +22,9 @@ processing.
 
 A modeling language for Wikidata should first aim at usability to allow
 comprehensible and formal description of Wikidata data models. It is shown how
-existing formal methods, despite there usefulness, do do not meet this goal
+existing formal methods, despite their usefulness, do not meet this goal
 because they are primarily bound by technical restrictions (RDF in the case of
-SheX, Wikidata statements in the case of property constraints). A new schema
+ShEx, Wikidata statements in the case of property constraints). A new schema
 language is sketched with requirements and examples. 
 
 This contribution shall spur discussion about schema languages for Wikidata to
