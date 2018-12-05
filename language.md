@@ -25,17 +25,22 @@ Core elements of an entity should be accessible via their common (JSON) name:
 
 **Methods** should be provided to for each data type, e.g.
 
-* **`type`**`(Q42) == Q42.`**`type`** `== Item`
-* **`id`**`(Q42) == "Q42"`
-* **`language`**`(?text) == "en"`
-* **`lexicalCategory`**`(?lexeme) == Q1084 # noun`
-* **`fields`**`(?tabular)`
+* `Q42.`**`type`** `== Item`
+* `Q42.`**`id`**
+* `?text.`**`language`** `== "en"`
+* `?lexeme.`**`lexicalCategory`** `== Q1084 # noun`
+* `?tabular.`**`fields`**
+* `2018-12-31.`**`precision`** `== 11 # days`
 
 A very small subset of these methods is available in SPARQL but not beyond XSD
 data types. Wikibase schema language should also do **implicit type casting**
 (also useful for comparison operator `==`):
 
-* `length(?uri)` instead of `strlen(str(?uri))` 
+* `?uri.length` instead of `strlen(str(?uri))` 
+
+Some data types can be converted to each other, e.g.
+
+* `Time("2018-12-31") == 2018-12-31`
 
 ### Statements
 
@@ -64,7 +69,7 @@ Property path inspired by SPARQL are useful:
 
     ?work P463 ?organization { P580 ?start; S248 ?source } 
 
-    ?work P463 ?organization
+    ?work P463 ?organization:
         P580 ?start
         S248 ?source 
 
@@ -73,5 +78,4 @@ Property path inspired by SPARQL are useful:
     ?work P50 ?  => ...             # if item has an author 
     ?work P50 ? /=> ...             # if item has no author 
     not( ?work P50 ? ) => ...       # equivalent
-
     
