@@ -270,6 +270,30 @@ Property path inspired by SPARQL are useful:
     ?work P50 ? /=> ...             # if item has no author 
     not( ?work P50 ? ) => ...       # equivalent
     
+## Operators
+
+### equality
+
+    ==
+    /=
+
+### coparision
+
+    >
+    >=
+    <
+    <=
+
+### set operators
+
+    in
+
+> Short names of entities (acronyms, abbreviations etc.) should also be aliases
+
+~~~example
+?entity P1813"short name" ?name =>
+  ?name in ?entity.aliases
+~~~
 
 # Additional features
 
