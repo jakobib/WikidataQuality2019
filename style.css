@@ -1,1 +1,20 @@
-del { color: #666; }
+body {
+  font-family: "Segoe UI","Roboto","Oxygen","Ubuntu","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+}
+
+a { 
+  text-decoration: none; 
+}
+
+del {
+  color: #666;
+}
+
+pre {
+  background: #f4f5f7;
+  padding: .5em 1em;
+}
+
+.ebnf {
+  border: 1px solid #e1e4e8;
+}
