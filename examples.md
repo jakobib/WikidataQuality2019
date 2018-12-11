@@ -54,7 +54,7 @@ Kukulu:
 
       ?population.fields.date.type == String
       ?date in ?population.fields.date =>
-        Time(?date).precision == 11
+        Time(?date).precision == 11     # cast string to Time
 
       ?population.fields.population.type == Number
       ?number in ?population.fields.population =>

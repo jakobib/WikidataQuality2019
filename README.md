@@ -40,3 +40,9 @@ write, and process.
 [Q367664]: http://www.wikidata.org/entity/Q367664
 [Q2013]: http://www.wikidata.org/entity/Q2013
 [Q1941921]:http://www.wikidata.org/entity/Q1941921
+
+## Additional material
+
+A very sketchy draft of the schema language is given in file [language.md](language.md).
+
+More examples are collected in [examples.md](examples.md)
