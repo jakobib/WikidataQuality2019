@@ -1,0 +1,12 @@
+language: r
+pandoc_version: 2.2.1
+install:
+ - curl -L https://cpanmin.us | sudo perl - --sudo App::cpanminus
+ - sudo cpanm Pandoc::Elements
+script:
+ - make
+ - cp language.html index.html
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: Ocw7VNJUuiGHyjYNSgkWJ8qj88qG2A/1ttuQxUa6kAAYWdcUzTP+G/RE8K40WI/HQ2H8mraZAlI1+6R5xjVBA8NffPu62RhXaPiHtjg5CrWO4S0m3ktp3gB9YVrErqMu6gnWcwiCFkZwe5uDLxEUHnlvKCnf7cV9UUiWaXG66Ezf8kA2t92I0xYXAuc0pBAy2dHQWEX5SZO7gzN7ASBX7RiMzxkMrDXPluyCXt40+BnCdqGbtF3zsVJOU+x44cRoGMaacGG8uoNCrPebG5fg0gJxAK/wQ+t0muYMJrTjhB7O2nj0UQaf03mYiNHGVa5pafsV214g/Ie5ae0n6L95HLo/Hngr1HUdtFrcZNV5IO3p3YyylnWiu0T+VBudkKT9cZs7ui5/gcY2ut+vsKvCbXwf8iRAvEokeUIZjWB3Wreq5NGyyM6G+CXFJjaG1yoO0JCX4KLU4DPZQmoVMHHI2+bfJPJh6ZFDo7qfZ28KjTOpYrz2ghJVKYeXubTCliUj3+QH5Opc2NeRT0PnJA3J2q9LYRwWzqOO+a5GVA7qi+lHVCH3/If+dK//kTNKDcFLiM90gbvuKYX7xw432Ri8mu5pDJavSIgHcziPy9dTTjAJ8gN6DNJWIWQ1ScqsmY+0B0Cyfb1g+xVeV5cLKyo6Y8jwfZmgtfqvkpd5RXuwPEc=
