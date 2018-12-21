@@ -43,6 +43,5 @@ write, and process.
 
 ## Additional material
 
-A very sketchy draft of the schema language is given in file [language.md](language.md).
-
-More examples are collected in [examples.md](examples.md)
+A draft of the schema language is available at <http://wikicite.org/kukulu/>
+managed in a git repository at <https://github.com/wikicite/kukulu>.
