@@ -1,6 +1,6 @@
 # Data modeling in Wikidata: Requirements for a Wikidata schema language
 
-*Submission for [Workshop on data quality management in Wikidata](https://fardamariam.wixsite.com/wikidatadqworkshop)*
+*Accepted talk at the [Workshop on data quality management in Wikidata](https://fardamariam.wixsite.com/wikidatadqworkshop)*
 
 ## Abstract
 
