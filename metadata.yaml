@@ -1,0 +1,16 @@
+---
+title: Data modeling in Wikidata
+subtitle: Requirements for a Wikidata schema language
+author:
+  - |
+    | Jakob Voß
+    | Verbundzentrale des GBV -- VZG
+date: |
+      | 2019-01-18, Berlin
+      |
+      | ![](img/cc-by.png)
+classoption:
+  - aspectratio=169
+fontsize: 14pt
+institute: Workshop on data quality management in Wikidata
+...

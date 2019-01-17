@@ -2,6 +2,10 @@
 
 *Accepted talk at the [Workshop on data quality management in Wikidata](https://fardamariam.wixsite.com/wikidatadqworkshop)*
 
+## Revised title
+
+Data modeling in Wikibase instances: Proposal of a Wikibase database language
+
 ## Abstract
 
 The way statements about reality are modeled in Wikidata does not follow an
